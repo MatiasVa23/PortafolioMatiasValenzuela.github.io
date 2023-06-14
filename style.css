@@ -1,0 +1,127 @@
+*{
+ color: rgb(255, 255, 255); 
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.fondo-body{
+  background: linear-gradient(to bottom, #525252, #000000);
+  
+}
+/* --nav-- */
+.navbar-toggler-icon-white {
+  background-color: #bd0a0a;
+  border-radius: 20%;
+}
+.navfondo{
+  background-color: rgb(0, 0, 0);
+}
+  .edit{
+    list-style: none;
+    
+  }
+  .edit2{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+  }
+  .linknav:hover{
+    transition: 1s;
+    color: rgb(229, 255, 0);
+   
+  }
+  
+  .link{
+    display: flex;
+    justify-content: end;
+    
+  }
+  /* ---finnav--- */
+
+  /* ---section 1--- */
+  .card-centro{
+    margin-left: 10%;
+    margin-top: 40px;
+  }
+.titulo{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: rgb(229, 255, 0);
+  margin-top: 10rem;
+  padding: 20px;
+  
+  
+}
+.titulo-card{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #ffffff;
+  padding: 15px;
+ 
+}
+
+  .card-animacion{
+    position: relative;
+    animation: appear 3s forwards;
+  }
+ @keyframes appear{
+  0%{
+    left: -800px;
+  }
+  100%{
+    left: 0;
+  }
+ }
+ .div-animacion{
+  position: relative;
+  animation: flow 3s forwards;
+ }
+ @keyframes flow{
+  0%{
+    color: transparent;
+    
+  }
+  100%{
+    color: rgb(229, 255, 0);
+    
+  }
+ }
+ /* --fin sect1-- */
+
+ /* seccion 2 */
+ @media (max-width: 576px) {
+  .card-sm {
+    width: 100px; 
+    margin-left: 125px;
+  }
+  
+  .card-img-top {
+    max-width: 100%; 
+  }
+  .linkimg{
+    width: 50px;
+  }
+}
+  
+.columna{
+  padding-bottom: 80px;
+  
+}
+.titulos{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Bruno Ace SC', cursive;
+  color: white;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+.zoom{
+  transition: transform 0.3s;
+}
+.zoom:hover{
+  transform: scale(1.2);
+}
+
+
+/* secion 3 */
+
+/* seccion 4 */
+
