@@ -6,7 +6,7 @@ function searchMovies(event) {
     const query = searchInput.value.toLowerCase();
   
     const apiKey = "a47eced8"; // Reemplaza con tu clave de API de OMDB
-    const apiUrl = `http://www.omdbapi.com/?apikey=${apiKey}&s=${query}`;
+    const apiUrl = `https://www.omdbapi.com/?apikey=${apiKey}&s=${query}`;
   
     fetch(apiUrl)
       .then(response => response.json())
